@@ -16,9 +16,21 @@ CopyLab operates in two modes based on your input:
 | **Figma Flow Analysis** | Figma link / UI flow description | Copy Critic + UX Writer — scores existing copy (5 dimensions), identifies issues, stress-tests against panic/confusion/urgency |
 
 ### Emotional states it targets
-- **Panic** — declined payments, errors, fraud alerts
-- **Confusion** — unclear limits, unexpected outcomes
-- **Urgency** — payment deadlines, verification steps
+
+| # | State | Trigger |
+|---|---|---|
+| 1 | **Panic** | Declined payments, errors, fraud alerts |
+| 2 | **Confusion** | Unclear limits, unexpected outcomes |
+| 3 | **Urgency** | Payment deadlines, verification steps |
+| 4 | **Trust / Skepticism** | Money movement, permissions, fees |
+| 5 | **Control / Loss of Control** | Declines, auto-pay, limits, restrictions |
+| 6 | **Relief / Reassurance** | Success states, confirmations, issue resolved |
+| 7 | **Uncertainty / Ambiguity** | Pending states, reviews, approvals |
+| 8 | **Effort / Friction Sensitivity** | Long forms, verification steps |
+| 9 | **Motivation / Value Perception** | Checkout, signup, feature adoption |
+| 10 | **Fear of Loss** | Missed payments, penalties, limits |
+| 11 | **Confidence / Competence** | Complex financial decisions |
+| 12 | **Delight** *(use sparingly)* | Small wins, milestones |
 
 ---
 
