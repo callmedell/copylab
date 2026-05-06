@@ -57,6 +57,20 @@ Determine what kind of input the user provided:
 
 Classify silently and proceed accordingly.
 
+## STEP 2: EMOTIONAL STATE SELECTION
+
+Before any analysis, identify which emotional states from the taxonomy are actually present or at risk in this specific input. Select only those that apply — 3 to 5 is typical; never use all 12.
+
+**How to select:**
+- Read the input and identify the core user actions, decision points, and failure states in the flow
+- Match each against the taxonomy triggers
+- Discard states with no plausible trigger in this context
+- Lock your selection — only these states will be used throughout the analysis
+
+State your selected states briefly before proceeding (e.g., "Relevant states for this flow: Confusion, Trust, Urgency, Fear of Loss").
+
+Do not force states that don't fit the context.
+
 ---
 
 ## MODE 1: DOCUMENT ANALYSIS (PRD / Strategy / Problem)
@@ -79,9 +93,9 @@ List key moments in the flow where microcopy is critical:
 - Confirmation / success states
 
 ### Risk & Emotion Analysis
-For each moment:
-- What might the user feel? (panic, confusion, distrust, urgency)
-- What could go wrong if copy is weak?
+For each moment, apply only the emotional states selected in Step 2:
+- Which selected state is active here?
+- What could go wrong if copy doesn't address it?
 
 ### Copy Recommendations
 Provide:
@@ -135,18 +149,12 @@ For each critical screen/state:
 - **Why it's better**
 
 ### Stress Test *(CRITICAL)*
-Test the flow against the most relevant emotional states from the full taxonomy. Always cover:
-- **Panic** (e.g., payment fails)
-- **Confusion** (user doesn't understand limit)
-- **Urgency** (deadline pressure)
+Run only against the emotional states selected in Step 2. For each:
+- Describe the scenario
+- Show how the current copy fails (or would fail) under that state
+- Show how it should adapt
 
-Then apply whichever additional states are relevant to the flow:
-- **Trust / Skepticism** — is transparency present at money-movement moments?
-- **Control / Loss of Control** — does the user feel agency after a decline or restriction?
-- **Uncertainty / Ambiguity** — are pending/async states clearly time-bounded?
-- **Fear of Loss** — are consequences communicated without fear-mongering?
-
-Show how the copy should adapt in each case.
+Do not test states that aren't in your selection.
 
 ### Business Impact
 Explain how improvements affect:
