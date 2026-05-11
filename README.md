@@ -68,11 +68,13 @@ Stress test this Figma flow: [figma.com/design/...]
 - **Metric Impact** — conversion, drop-off, support, trust/NPS
 
 ### Mode 2 — Figma Flow Analysis
+Works the same whether you share 1 frame or a 5-screen flow. Analysis is always broken down to the individual screen level.
+
+- **Screen Inventory** — enumerates every frame before analysis begins
 - **Flow Understanding** — 2–3 sentence summary
-- **Copy Scorecard** — Clarity, Emotional Awareness, Trust, Actionability, Consistency (0–10)
-- **Key Issues** — unclear language, missing states, risky phrasing
-- **Improved Microcopy** — original → improved, with rationale
-- **Stress Test** — panic / confusion / urgency scenarios
+- **Copy Scorecard** — Clarity, Emotional Awareness, Trust, Actionability, Consistency (0–10) at flow level
+- **Per-Screen Analysis** — for each screen: active emotional states, key copy issues, improved microcopy table (element / original / improved / why), missing states
+- **Stress Test** — only the selected emotional states, anchored to specific screens
 - **Business Impact** — conversion, drop-off, trust, support volume
 
 ---

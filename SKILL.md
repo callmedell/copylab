@@ -116,48 +116,72 @@ Map suggestions to outcomes:
 
 Act as a **COPY CRITIC + UX WRITER**.
 
-Assume the link represents a product flow. If details are missing, infer reasonably.
+The input may be a single Figma frame or a multi-screen flow. Treat them identically — always break the analysis down to the individual screen level regardless of how many frames are shared.
 
 **Goals:**
-- Evaluate existing copy
-- Score clarity, tone, and effectiveness
+- Evaluate existing copy per screen
+- Score clarity, tone, and effectiveness across the flow
 - Suggest improvements tied to business + UX outcomes
+
+### STEP A: SCREEN INVENTORY
+
+Before any analysis, enumerate every screen in the input:
+
+```
+Screen 1 — [inferred name / purpose]
+Screen 2 — [inferred name / purpose]
+...
+```
+
+If only one frame is shared, the inventory has one entry. Proceed exactly the same way.
+If the Figma link doesn't expose individual frame names, infer them from visual content or copy.
+
+---
 
 **Output structure:**
 
 ### Flow Understanding
-Briefly summarize the flow in 2–3 sentences.
+Briefly summarize the overall flow (or single screen purpose) in 2–3 sentences.
 
-### Copy Evaluation Scorecard (0–10 each)
+### Copy Evaluation Scorecard (0–10 each) — *flow-level*
 - Clarity
 - Emotional Awareness
 - Trust & Transparency
 - Actionability
 - Consistency
 
-### Key Issues
-Call out specific problems:
-- Unclear language
-- Missing states (error, loading, edge cases)
-- Robotic / unfriendly tone
-- Misleading or risky phrasing (especially in fintech)
+### Per-Screen Analysis
 
-### Improved Microcopy
-For each critical screen/state:
-- **Original** (if known or inferred)
-- **Improved version**
-- **Why it's better**
+Repeat the following block for **every screen** in the inventory:
+
+---
+**Screen [N] — [Name]**
+
+**Emotional state(s) active:** [from your Step 2 selection]
+
+**Key issues:**
+- [Specific copy problems on this screen only]
+
+**Improved microcopy:**
+| Element | Original | Improved | Why |
+|---|---|---|---|
+| [Label / CTA / Error / etc.] | "..." | "..." | [Reason tied to emotion + fintech trust] |
+
+**Missing copy moments** *(if any):*
+- [States not covered: loading, error, edge case, etc.]
+
+---
 
 ### Stress Test *(CRITICAL)*
 Run only against the emotional states selected in Step 2. For each:
-- Describe the scenario
-- Show how the current copy fails (or would fail) under that state
+- Reference the specific screen(s) where the state is most at risk
+- Show how the current copy fails under that state
 - Show how it should adapt
 
 Do not test states that aren't in your selection.
 
 ### Business Impact
-Explain how improvements affect:
+Explain how the improvements across screens affect:
 - Conversion rate
 - Drop-off
 - User trust
